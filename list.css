@@ -1,0 +1,132 @@
+html{
+
+	height: 100%;
+}
+body{
+	background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/77DHVBXQ80.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.area{
+	background-color: white;
+	margin: 15% auto; 
+	max-height: 400px;
+	max-width: 600px;
+	border: solid #000 5px;
+	cursor: pointer;
+}
+ul{
+	margin: 0;
+	padding: 0; 
+  
+  
+}
+ul li{
+	font-family: 'Ranga', cursive;
+	font-size: 20px;
+	letter-spacing: 2px;
+  color: #4a4b4c;
+  padding 10px 20px 10px 40px;
+	  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  position: relative;
+  background-color: white;
+}
+ul li:hover {
+	background-color: grey;
+
+}
+
+ul li.crossed{
+	text-decoration: line-through;
+	
+}
+
+ul li.crossed::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+.btn-bar{
+	margin-top: -10%;
+	margin-left: ;
+	margin-right:;
+	text-align: center;
+}
+
+.bs{
+	font-weight: 700px;
+	text-decoration: line-through;
+	font-size: 30px;
+}
+
+.close{
+	font-family: sans-serif;
+}
+
+.addBtn{
+	background-color: #ff69b4;
+	color: #fff;
+	border: #000 2px solid;
+	border-radius: 10%;
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 12px;
+	width: 60px;
+	height: 25px;
+}
+
+.addBtn:hover{
+	background-color: #a9a9a9;
+}
+
+.bg{
+background-color: white;
+}
+
+#test{
+	/*font-family: 'Ranga', cursive;
+	text-decoration: none;
+	font-size: 20px;
+	/*letter-spacing: 2px;*/
+  list-style-type: none;
+}
+
+.todoh1{
+	font-family: 'Roboto' , cursive;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 1px 1px 2px #fff, 2px 2px 4px #ff69b4;
+	margin-top: 20px;
+	
+
+}
+
+.inner{
+	font-weight: 700;
+	text-shadow: 0.1em 0.1em 0.2em #4a4b4c;
+}
+
+#list-input{
+	border: 2px solid #000;
+	height: 20px;
+}
+.crossed{
+	font-size: 30px;
+}
+li{
+  display: list-item;
+}
